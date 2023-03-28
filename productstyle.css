@@ -80,6 +80,18 @@ nav ul li .link {
     color: #518581;
     
 }
+nav ul li .link::after {
+  content: "";
+  color: #518581;
+  width: 10%;
+  height: 3px;
+  background: #518581;
+  position: absolute;
+  bottom: -5px;
+  left: 5px;
+  
+}
+
 
 .nav li a:hover {
     color: #518581;
