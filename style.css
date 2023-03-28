@@ -32,9 +32,11 @@ body {
 
 
 
+/*all index css start*/
+
+
 
 /*all nav links start*/
-
 header {
     max-width: 100%;
     height: 100%;
@@ -63,8 +65,9 @@ nav {
 .nav li {
     display: inline-block;
     padding: 0 1rem;
-    
+
 }
+
 
 .nav li a {
     color:  #151411;
@@ -75,6 +78,9 @@ nav {
     
 }
 
+nav ul li .link {
+    color: #FFB23F;
+}
 
 .nav li a:hover {
     color: #518581;
@@ -747,9 +753,21 @@ footer {
     color: #080807;
     margin: 0;
   }
-
-  
 /*footer ends*/
+
+
+/*all index css ends*/
+
+
+
+
+
+/*product css start*/
+
+
+/*product css ends*/
+
+
 
 
 
@@ -762,8 +780,7 @@ footer {
     body br {
         display: none;
       }
-    
-       
+     
 .nav {
     position: absolute; 
     top: 90px;
@@ -780,7 +797,6 @@ footer {
     transition: ease-in-out.5s;
 
  }
-
 
 
 .nav li {
