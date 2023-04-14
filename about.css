@@ -151,52 +151,43 @@ nav ul li .link::after {
 
 /*hero start*/
 .hero-container {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     max-width: 100%;
     height: 100%;
-    
-
+    position: relative;
+    text-align: start;
 }
 
 .hero-container h1{
-    font-size: 3rem;
-    text-align: center;
-    color: #151411;
+    font-size: 2.5rem;
+    color: #ffffff;
     font-weight: 600;
-    line-height: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 
-.hero-container p{
-    line-height: 2.5rem;
-    text-align: center;
-    color: #AFADB5;
-    font-weight: 500;
-    font-size: 1.3rem;
-    margin: 2.5rem 0;
+.hero-container img{
+    filter: grayscale(1);
 }
 
 
 /*hero end*/
 
 
-/*all articles start*/
+/*about us start*/
 
-article{
+main {
     max-width: 100%;
     height: 100%;
-    margin-bottom: 6rem;
-
+    margin-bottom: 5rem;
 }
 
- .container{
+.container{
     display: flex;
     text-align: start;
-    justify-content: center;
-    align-self: flex-start;
-    width: 100%;
-    font-size: 1.2rem;
-    color: #AFADB5;
     font-weight: 500;
     line-height: 2rem;
     margin-bottom: 4rem;
@@ -204,132 +195,26 @@ article{
 }
 
 .container .left{
-    margin-right: 1.7rem;
-
+ font-size: 1rem;
 }
 
-article h3{
-    color: #151411;
-    margin-bottom: 1rem;
-    text-align: start;
-    font-weight: 600;
-}
-
-.bed-img{
-    margin-bottom: 3rem;
-}
-
-/*all articles end*/
-
-
-/*similiar articles start*/
-
-main {
-    max-width: 100%;
-    height: 100%;
-    margin-bottom: 10rem;
-}
-
-main p.title{
+.container h2{
     color: #FFB23F;
-    font-size: 1.5rem;
-    font-weight: 600;
     margin-bottom: 1rem;
-    text-align: center;
 }
 
-
-main h2{
-    color: #080807;
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 4rem;
-    text-align: center;
-}
-
-.similiar-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 6rem;
-
-}
-
-.similiar-container .col-3:hover{
-    box-shadow: 0px 4px 100px rgba(175, 173, 181, 0.06);
-    cursor: pointer;
-}
-
-.similiar-container p{
-    color: #AFADB5;
-    margin: 0.8rem 0;
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-
-
-.similiar-container h3{
+.right h3{
     margin: 1rem 0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
-.profile-details{
-    display: flex;
-    align-items: start;
-    margin-top: 1.5rem;
+
+.container .right{
+    width: 50%;
+    margin-left: 8rem;
 }
 
-.profile-details p{
-    font-size: 0.8rem;
-}
-
-.profile-details h4{
-    font-size: 1rem;
-}
-
-.profile-name{
-    margin-left: 1rem;
-    font-weight: 500;
-}
-
-/*similiar articles end*/
-
-
-/*interested personnels start*/
-.discount {
-    max-width: 100%;
-    height: 100%;
-    margin-bottom: 7rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-}
-
-.discount .col-2 h1 {
-    color: #151411;
-    font-size: 2rem;
-}
-
-.discount-img {
-    margin: 0 0.5rem;
-}
-
-.search-btn {
-    padding: 0.7rem 1.5rem;
-    background-color: #518581;
-    border: none;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: ease-in 0.2s;
-}
-
-.search-btn:hover {
-    opacity: 0.5;
-}
+/*about us ends*/
 
 
 #line {
@@ -337,8 +222,6 @@ main h2{
     color: #ECE4DE;
     width: 100%;
 }
-/*interested personnels end*/
-
 
 
 /*footer starts*/
@@ -417,9 +300,9 @@ footer {
     left: 80px;
     background: #518581;
     height: 70vh;
-    z-index: 999;
     width: 330px;
     font-weight: 600;
+    z-index: 999;
     justify-content: center;
     padding-left: 2rem;
     align-items: flex-start;
@@ -471,140 +354,49 @@ footer {
     }
 
     .hero-container h1{
-        font-size: 1.5rem;
-        line-height: 2.5rem;
-    }
-    
-    .hero-container p{
-        line-height: 1.5rem;
-        text-align: start;
-        font-size: 1rem;
-        margin-top: 1.3rem ;
-        margin-bottom: 3rem;
+        font-size: 0.8rem;
+        color: #ffffff;
+        font-weight: 600;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
         
     }
 
-    
-article{
-    max-width: 100%;
-    height: 100%;
-    margin-bottom: 5rem;
-
-}
-
- .container{
-    flex-wrap: wrap;
-    width: 100%;
-    font-size: 1rem;
-    line-height: 2rem;
-    margin-bottom: 1.5rem;
- 
-}
-
-.container .left{
-    margin-right: 0;
-    margin-bottom: 2rem;
-
-}
-
-.container img{
-    width: 100%;
-}
-
- 
-    .search-btn {
-    font-size: 0.7rem;
-    padding: 0.3 0.5rem;
+  
+    main {
+        max-width: 100%;
+        height: 100%;
+        margin-bottom: 5rem;
     }
-
-    .img  {
-        width: 100%;
+    
+    .container{
+        flex-wrap: wrap;
+        max-width: 100%;
         height: 100%;
     }
-
     
-    .search-btn:nth-child(4) {
-      width: 100%;
-      font-weight: 600;
+    .container .left{
+     font-size: 0.8rem;
+     margin-bottom: 2rem;
+
     }
-
-
     
-main {
-    max-width: 100%;
-    height: 100%;
-    margin-bottom: 10rem;
-}
-
-main p.title{
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-
-main h2{
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.similiar-container{
-    flex-wrap: wrap;
-    gap: 3rem;
-}
-
-.similiar-img{
-    width: 100%;
-}
-
-.similiar-container p{
-    margin: 0.6rem 0;
-    font-size: 0.8rem;
-}
-
-.similiar-container h3{
-    margin: 0.5rem 0;
-    font-size: 1rem;
-}
-
-.profile-details{
-    margin-top: 1rem;
-}
-
-.profile-details p{
-    font-size: 0.7rem;
-}
-
-.profile-details h4{
-    font-size: 0.7rem;
-}
-
-.profile-details img{
-    width: 15px;
-}
-
-.profile-name{
-    margin-left: 1rem;
-}
-
-   .discount {
-    max-width: 100%;
-    height: 100%;
-    flex-wrap: wrap;
-    margin-bottom: 4rem;
-  
-}
-
-.discount .col-2 h1 {
-    font-size: 1.7rem;
-    text-align: start;
-    margin-bottom: 1rem;
-}
-
-.discount-img {
-    margin: 0 0.2rem;
-    width: 15px;
-}
-
+    .container h2{
+        color: #FFB23F;
+        margin-bottom: 1rem;
+    }
+    
+    .right h3{
+        font-size: 1rem;
+    }
+    
+    .container .right{
+        width: 100%;
+        margin-left: 0;
+    }
+    
 
 footer {
     flex-wrap: wrap;

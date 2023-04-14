@@ -264,7 +264,7 @@ input[type = search] {
 
 .benefit p{
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #AFADB5;
     
 }
@@ -281,7 +281,7 @@ input[type = search] {
     background-color: #ffffff;
     padding: 1rem 2rem;
     width: 300px;
-    height: 220px;
+    height: 250px;
     box-shadow: 0px 4px 100px rgba(175, 173, 181, 0.184);
     cursor: pointer;
 
@@ -790,6 +790,7 @@ footer {
     left: 80px;
     background: #518581;
     height: 70vh;
+    z-index: 999;
     width: 330px;
     font-weight: 600;
     justify-content: center;

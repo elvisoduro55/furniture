@@ -280,7 +280,7 @@ align-items: center;
 }
 
 .popular-products .col-4:hover {
-  box-shadow: 0px 4px 100px rgba(181, 179, 173, 0.218);
+  box-shadow: 0px 4px 100px rgba(181, 179, 173, 0.064);
 
 }
 
@@ -382,6 +382,7 @@ footer {
         background: #518581;
         height: 70vh;
         width: 330px;
+        z-index: 999;
         font-weight: 600;
         justify-content: center;
         padding-left: 2rem;

@@ -424,30 +424,6 @@ main h2 {
     font-weight: 500;
 }
 
-.view-more{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-}
-
-.view-more-btn{
-  padding: 0.9rem 1.5rem;
-  background-color: #518581;
-  border: none;
-  border-radius: 10px;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: ease-in-out 0.3s;
-
-}
-
-.view-more-btn:hover {
-  opacity: 0.5;
-}
-
 
 /*popular products end*/
 
@@ -532,6 +508,7 @@ top: 90px;
 left: 80px;
 background: #518581;
 height: 70vh;
+z-index: 999;
 width: 330px;
 font-weight: 600;
 justify-content: center;
@@ -696,17 +673,6 @@ input[type = search] {
   font-weight: 600;
 
 }
-
-.view-more{
-  margin-top: 2rem;
-}
-
-.view-more-btn{
-  padding: 0.7rem;
-  font-size: 0.7rem;
-}
-
-
 
 .hero-slides .carousel img {
   width: 100%;
