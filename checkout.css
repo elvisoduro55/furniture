@@ -170,13 +170,9 @@ main h2{
     display: flex;
    justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    gap: 2.2rem;
 }
 
-.sponsors img{
-    margin: 0 1rem;
-}
 
 main p{
     text-align: center;
@@ -457,7 +453,6 @@ footer {
     main h2{
         text-align: start;
         font-size: 1.5rem;
-
     }
     
     main p{
@@ -466,21 +461,12 @@ footer {
     }
 
     .sponsors{
-      width: 100%;
-      height: 100%;
-      flex-direction: row;
-      gap: 2rem;
+      display: none;
 
     }
     
-    .sponsors img{
-        width: 100%;
-        margin: 0;
-    }
-
-
      form{
-        margin-top: 2rem;
+        margin-top: 0.2rem;
         background-color: #ffffff;
         width: 100%;
         height: 100%;
