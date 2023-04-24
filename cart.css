@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+h1,h2,
+h3,h4,
+h5,h6{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    padding-top: 4rem ;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+    scrollbar-width: none;
+
+}
+
+
+
+/*all index css start*/
+
+
+
+/*all nav links start*/
+header {
+    max-width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 7rem;
+    background-color: #ffffff;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.nav li {
+    display: inline-block;
+    padding: 0 1rem;
+
+}
+
+
+.nav li a {
+    color:  #151411;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    position: relative;
+    
+}
+
+nav ul li .link {
+    color: #518581;
+    
+}
+nav ul li .link::after {
+  content: "";
+  color: #518581;
+  width: 10%;
+  height: 3px;
+  background: #518581;
+  position: absolute;
+  bottom: -5px;
+  left: 5px;
+  
+}
+
+.nav li a:hover {
+    color: #518581;
+    transition: ease-in 0.5s;
+}
+
+
+.nav li a::after {
+    content: '';
+    bottom: -6px;
+    height: 3px;
+    width: 0;
+    background: #518581;
+    position: absolute;
+    left: 0;
+    transition: 0.7s;
+}
+
+.nav li a:hover::after {
+    width: 100%;
+}
+
+.nav-icons {
+    margin-left: 15rem;
+    cursor: pointer;
+   
+}
+
+.nav-icon-1 {
+    margin: 0 1rem;
+
+}
+
+.nav-icon-1:hover {
+    opacity: 0.4;
+}
+
+.nav-icon-2:hover {
+    opacity: 0.4;
+}
+
+
+.mobile {
+    display: none;
+}
+
+.close {
+    display: none ;
+    cursor: pointer;
+}
+
+/*all nav links end*/
+
+
+
+/*cart start*/
+
+section{
+   max-width: 100%;
+   height: 100%;
+   margin-bottom: 6rem;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    color: #518581;
+}
+
+.material-symbols-outlined{
+    color: #080807;
+}
+.cart{
+    overflow-x: auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+ 
+.cart table td:nth-child(1){
+    text-align: center;
+    width: 100px;
+}
+
+ 
+.cart table td:nth-child(2){
+    text-align: center;
+    width: 200px;
+}
+
+ 
+.cart table td:nth-child(3){
+    text-align: center;
+    width: 260px;
+
+}
+
+.cart table td:nth-child(4),
+.cart table td:nth-child(5),
+.cart table td:nth-child(6){
+    text-align: center;
+    width: 150px;
+}
+
+.cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+    color: #518581;
+}
+
+.cart table thead{
+    border: 1px solid #080807;
+    border-left: none;
+    border-right: none;
+}
+
+.cart table thead td{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 1.5rem 0.5rem;
+    font-weight: 600;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.cart table tbody tr td{
+    padding-top: 1.5rem;
+}
+
+.cart table tbody  td{
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.coupon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.apply-coupon{
+    width: 50%;
+   margin-bottom: 4rem;
+}
+
+.apply-coupon h3{
+    padding-bottom: 2rem;
+}
+
+.apply-coupon input{
+    padding: 1rem ;
+    outline: none;
+    width: 60%;
+    margin-right: 0.5rem;
+    border: 1px solid #518581;
+    font-size: 1rem;
+}
+
+.coupon-btn{
+    background-color: #518581;
+    border: none;
+    padding: 1rem 1.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: ease-in-out 0.3s;
+}
+
+
+.coupon-btn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.subtotal{
+    width: 50%;
+    margin-bottom: 3rem ;
+    border: 1px solid #518581;
+    padding: 2rem;
+}
+
+
+.subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.subtotal table td{
+    width: 50%;
+    border: 1px solid #080807;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.subtotal h1{
+    padding-bottom: 2rem;
+}
+
+
+/*cart ends*/
+
+
+#line {
+    margin: 2rem 0;
+    color: #ECE4DE;
+    width: 100%;
+}
+
+
+/*footer starts*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    height: 100%;
+    max-width: 100%;
+
+  }
+
+  .logo p{
+    color: #151411;
+    font-weight: 500;
+    margin-top: 1rem;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+
+  }
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: start;
+ 
+  }
+
+  .footer-links h4 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #151411;
+  }
+
+  .footer-links ul li {
+    margin: 1rem 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: normal;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+  }
+  
+  .footer-links ul li:hover {
+    color: #518581;
+  }
+
+  .Developer {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #080807;
+    margin: 0;
+  }
+/*footer ends*/
+
+
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        padding: 2rem;
+    }
+
+    body br {
+        display: none;
+      }
+     
+.nav {
+    position: absolute; 
+    top: 90px;
+    left: 80px;
+    background: #518581;
+    height: 70vh;
+    width: 330px;
+    font-weight: 600;
+    z-index: 999;
+    justify-content: center;
+    padding-left: 2rem;
+    align-items: flex-start;
+    flex-direction: column;
+    box-shadow: 0px 4px 100px rgba(175, 173, 181, 0.184);
+    transition: ease-in-out.5s;
+
+ }
+
+
+.nav li {
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  display: block;
+
+ }
+
+.nav ul li a {
+    color: #ffffff;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+   
+  }
+
+      .nav-icons {
+        margin-left: 0;
+        color: #ffffff;
+      }
+
+      .mobile {
+        display: block;
+        cursor: pointer;
+    
+    }
+
+    .close {
+        display: block;
+        font-size: 2.2rem;
+        position: absolute;
+        cursor: pointer;
+        top: 20px;
+        left: 40px;
+    }
+
+    .title{
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+
+    .cart table img{
+        width: 70px;
+    }
+
+    .cart table thead td{
+        font-size: 0.8rem;
+        padding: 1rem 0.5rem;
+       
+    }
+  
+    .cart table tbody  td{
+        font-size: 0.8rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    
+.cart table td:nth-child(5) input{
+    width: 50px;
+    padding: 5px 3px 10px 10px;
+}
+
+    .coupon{
+        flex-direction: column;
+    }
+
+    .apply-coupon{
+        width: 100%;
+    }
+
+    .apply-coupon input{
+        font-size: 0.8rem;
+    }
+
+    .subtotal{
+        width: 100%;
+    }
+
+.subtotal table td{
+    width: 50%;
+    border: 1px solid #080807;
+    padding: 0.6rem;
+    font-size: 0.8rem;
+}
+
+.subtotal h1{
+    padding-bottom: 2rem;
+    font-size: 0.8rem;
+}
+
+.coupon-btn:nth-child(3){
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+footer {
+    flex-wrap: wrap;
+    height: 100%;
+    max-width: 100%;
+    justify-content: flex-start;
+    align-items: start;
+ 
+
+  }
+
+  .logo p{
+    color: #AFADB5;
+    font-weight: 500;
+    margin-top: 1rem;
+    line-height: 1.7rem;
+    font-size: 0.8rem;
+    
+  }
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 100%;
+    gap: 2rem;
+    align-items: start;
+    margin-top: 2rem;
+    flex-direction: row;
+ 
+  }
+
+  .footer-links h4 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #151411;
+  }
+
+  .footer-links ul li {
+    margin: 1rem 0;
+    font-weight: 500;
+    color: #AFADB5;
+    font-size: 0.8rem;
+    font-style: normal;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+  }
+  
+  .footer-links ul li:hover {
+    color: #518581;
+  }
+
+  .Developer {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #080807;
+    
+  }
+
+
+    
+  }
