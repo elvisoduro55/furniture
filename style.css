@@ -650,7 +650,8 @@ h3.article-title {
   .active, .dot:hover {
     background-color: #518581;
   }
-  
+
+
   /* Fading animation */
   .fade {
     animation-name: fade;
