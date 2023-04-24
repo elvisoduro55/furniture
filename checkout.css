@@ -170,10 +170,8 @@ main h2{
     display: flex;
    justify-content: center;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
     height: 100%;
-  
-
 }
 
 .sponsors img{
@@ -468,15 +466,19 @@ footer {
     }
 
     .sponsors{
-      max-width: 100%;
+      width: 100%;
       height: 100%;
+      flex-direction: row;
+      gap: 2rem;
 
     }
     
     .sponsors img{
-        width: 25%;
+        width: 100%;
+        margin: 0;
     }
-    
+
+
      form{
         margin-top: 2rem;
         background-color: #ffffff;
