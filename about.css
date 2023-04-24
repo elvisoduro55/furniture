@@ -208,6 +208,14 @@ main {
     font-size: 1.1rem;
 }
 
+.right h3 a{
+    color: #080807;
+    transition: ease-in 0.4s;
+}
+
+.right h3 a:hover{
+    color: #518581;
+}
 
 .container .right{
     width: 50%;

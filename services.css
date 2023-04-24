@@ -269,10 +269,10 @@ nav ul li .link::after {
    }
    
  .portfolio-img  .text p{
-     color: #ffffff;
+     color: #ffffffdd;
      font-size: 1.2rem;
      margin:  0;
-     font-weight: 400;
+     font-weight: 600;
      line-height: 1.3rem;
      font-style: normal;
      text-align: start;
