@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Checkout | Furniture</title>
+</head>
+
+
+<body>
+
+    
+ <!--all nav-links start -->
+ <header>
+
+    <nav>
+
+     <a href="index.html"><img src="images/logo.png" width="110px"/></a>
+
+
+        <div class="nav">
+            
+            <ul>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="services.html" >Services</a></li>
+                <li><a href="article.html" >Article</a></li>
+                <li><a href="about.html" >About Us</a></li>
+              
+            </ul>    
+
+            
+         <div class="nav-icons">
+
+
+            <a href="cart.html" > 
+                <img src="images/bag-icon.png"  class="nav-icon-1" width="30px"/>
+                </a>
+
+               <a href="login.html"> 
+                <img src="images/user-icon.png" class="nav-icon-2" width="30px"/>
+               </a>
+              
+       
+           </div>
+
+           <div class="close">
+
+           <img src="images/close-icon.png" width="20px"/>
+            
+           </div>
+
+    </div>
+
+
+    <div class="mobile">
+        <img src="images/mobile.png" width="25px">
+
+    </div>
+
+    </nav>
+
+
+</header>
+
+<!--all nav-links ends -->
+
+
+<main>
+
+<h2>Payment Method 
+    <span class="material-symbols-outlined">
+        credit_card
+        </span>
+</h2>
+
+<div class="sponsors">
+    <img src="images/visa.jpg" width="80px"/>
+    <img src="images/mtn.png" width="40px"/>
+    <img src="images/matercard.png" width="40px"/>
+    <img src="images/wr.png" width="80px"/>
+</div>
+
+<div class="flex">
+
+  <form>
+
+    <input type="text" placeholder="Email">
+
+    <input type="text" placeholder="Card number">
+
+    <div class="security">
+        
+    <input type="text"  placeholder="Expiration">
+    
+    <input type="password" id="cvc" placeholder="cvc">
+
+    </div> 
+
+    <p class="term">By clicking <strong>“Confirm Payment”</strong> I agree to the 
+        company's terms of services
+    </p>
+
+
+    <button type="btn"><a href="confirm.html">Confirm Payment</a></button>
+
+  </form>
+
+</div>
+</main>
+
+
+<hr id="line">
+
+
+    <!--footer start-->
+    <footer>
+
+        <div class="logo">
+
+            <img src="images/Logo.png" width="100px" alt="logo">
+            <p>Lalasia is digital agency that help you make  better decision <br>
+                in furniture for your homes, schools and work.
+          
+                </p>
+          
+
+        </div>
+
+        <div class="footer-links">
+
+    
+        <div class="col-3">
+            <h4>Product</h4>
+
+            <ul>
+                <Li>Best Selling</Li>
+                <Li>Home Decor</Li>
+                <Li>New Arrivals</Li>
+                <Li>Kitchen Set</Li>
+
+            </ul>
+
+        </div>
+
+        <div class="col-3">
+            <h4>Services</h4>
+
+            <ul>
+                <Li>Catalog</Li>
+                <Li>Blog</Li>
+                <Li>Press</Li>
+                <Li>FaQ</Li>
+            
+            </ul>
+
+        </div>
+
+        <div class="col-3">
+            <h4>Follow Us</h4>
+
+            <ul>
+                <Li>Facebook</Li>
+                <Li>Instagram</Li>
+                <Li>Twitter</Li>
+          
+            </ul>
+
+        </div>
+
+    </div>
+
+
+      </footer>    
+     <!--footer close-->
+    
+     <!--javascript for toggle start-->
+
+    <script >
+
+        const close = document.querySelector(".close");
+
+       const openn = document.querySelector(".mobile");
+         const menu = document.querySelector(".nav");
+         openn.addEventListener("click", () => {
+          menu.style.display === "none"
+          ? (menu.style.display = "flex")(
+              openn.setAttribute( ".mobile")
+            )
+          : (menu.style.display = "none")(
+            openn.setAttribute()
+            );
+      });
+
+      close.addEventListener("click", () => {
+          menu.style.display === "flex"
+          ? (menu.style.display = "none")(
+              close.setAttribute( ".mobile")
+            )
+          : (menu.style.display = "flex")(
+            close.setAttribute()
+            );
+      });
+
+
+        </script>
+
+<!--javascript for toggle end-->
+
+
+
+    <div class="Developer">Elvis Oduro 2023 
+        | Wiuc/09/0499 | Final project </div>
+
+
+    </body>
+
+
+</html>
