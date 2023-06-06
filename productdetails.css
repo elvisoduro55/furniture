@@ -254,14 +254,17 @@ color: #ffffff;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
+.closebtn {
+  color: #FFB23F;
+  cursor: pointer;
+  font-size: 38px;
   font-weight: bold;
 }
 /*modal end*/
@@ -632,6 +635,11 @@ footer {
     color: #080807;
     
   }
+
+  .modal-content {
+    width: 100%;
+  }
+  
 
   
 }
