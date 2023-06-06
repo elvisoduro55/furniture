@@ -79,7 +79,7 @@ nav {
 }
 
 nav ul li .link {
-    color: #518581;
+    color: #FFB23F;
     
 }
 nav ul li .link::after {
@@ -87,7 +87,7 @@ nav ul li .link::after {
   color: #518581;
   width: 10%;
   height: 3px;
-  background: #518581;
+  background: #FFB23F;
   position: absolute;
   bottom: -5px;
   left: 5px;
@@ -95,7 +95,7 @@ nav ul li .link::after {
 }
 
 .nav li a:hover {
-    color: #518581;
+    color: #FFB23F;
     transition: ease-in 0.5s;
 }
 
@@ -105,7 +105,7 @@ nav ul li .link::after {
     bottom: -6px;
     height: 3px;
     width: 0;
-    background: #518581;
+    background: #FFB23F;
     position: absolute;
     left: 0;
     transition: 0.7s;
@@ -278,7 +278,7 @@ footer {
   }
   
   .footer-links ul li:hover {
-    color: #518581;
+    color: #FFB23F;
   }
 
   .Developer {

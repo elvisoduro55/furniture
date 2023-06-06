@@ -76,7 +76,7 @@ main p{
 
 
 label{
-    color: #518581;
+    color: #0d0800;
     font-size: 1.3rem;
     font-weight: 500;
 }
@@ -91,7 +91,7 @@ input[type=text] {
     border-left: none;
     border-right: none;
     box-sizing: border-box;
-    color: #518581;
+    color: #FFB23F;
     font-size: 1.1rem;
 
   }
@@ -107,14 +107,14 @@ input[type=text] {
     border-left: none;
     border-right: none;
     box-sizing: border-box;
-    color: #518581;
+    color: #FFB23F;
     font-size: 1.1rem;
 
   }
 
   input[type=submit] {
     width: 300px;
-    background-color: #518581;
+    background-color: #FFB23F;
     color: white;
     padding: 1rem;
     font-weight: 600;
@@ -139,7 +139,7 @@ input[type=text] {
   }
 
   .login-link{
-    color: #518581;
+    color: #FFB23F;
   }
 
   .login-link:hover{

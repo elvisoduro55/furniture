@@ -79,15 +79,15 @@ nav {
 }
 
 nav ul li .link {
-    color: #518581;
+    color: #FFB23F;
     
 }
 nav ul li .link::after {
   content: "";
-  color: #518581;
+  color: #FFB23F;
   width: 10%;
   height: 3px;
-  background: #518581;
+  background: #FFB23F;
   position: absolute;
   bottom: -5px;
   left: 5px;
@@ -95,7 +95,7 @@ nav ul li .link::after {
 }
 
 .nav li a:hover {
-    color: #518581;
+    color: #FFB23F;
     transition: ease-in 0.5s;
 }
 
@@ -105,7 +105,7 @@ nav ul li .link::after {
     bottom: -6px;
     height: 3px;
     width: 0;
-    background: #518581;
+    background: #FFB23F;
     position: absolute;
     left: 0;
     transition: 0.7s;
@@ -175,7 +175,7 @@ nav ul li .link::after {
 
 .search-btn {
     padding: 0.7rem 1.5rem;
-    background-color: #518581;
+    background-color: #da8b14;
     border: none;
     color: #ffffff;
     font-weight: 500;
@@ -220,7 +220,7 @@ nav ul li .link::after {
     font-weight: 600;
     font-size: 4rem;
     margin: 1rem 0;
-    color: #518581;
+    color: #FFB23F;
 }
 
 .benefits .col-3 h4 {
@@ -402,7 +402,7 @@ footer {
   }
   
   .footer-links ul li:hover {
-    color: #518581;
+    color: #FFB23F;
   }
 
   .Developer {
@@ -430,7 +430,7 @@ footer {
     position: absolute; 
     top: 90px;
     left: 80px;
-    background: #518581;
+    background: #da8b14;
     height: 70vh;
     width: 330px;
     z-index: 999;

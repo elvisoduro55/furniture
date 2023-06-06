@@ -79,15 +79,15 @@ nav {
 }
 
 nav ul li .link {
-    color: #518581;
+    color: #FFB23F;
     
 }
 nav ul li .link::after {
   content: "";
-  color: #518581;
+  color: #FFB23F;
   width: 10%;
   height: 3px;
-  background: #518581;
+  background: #FFB23F;
   position: absolute;
   bottom: -5px;
   left: 5px;
@@ -95,7 +95,7 @@ nav ul li .link::after {
 }
 
 .nav li a:hover {
-    color: #518581;
+    color: #FFB23F;
     transition: ease-in 0.5s;
 }
 
@@ -105,7 +105,7 @@ nav ul li .link::after {
     bottom: -6px;
     height: 3px;
     width: 0;
-    background: #518581;
+    background: #FFB23F;
     position: absolute;
     left: 0;
     transition: 0.7s;
@@ -160,7 +160,7 @@ section{
     text-align: center;
     margin-bottom: 4rem;
     font-size: 3rem;
-    color: #518581;
+    color: #FFB23F;
 }
 
 .material-symbols-outlined{
@@ -207,7 +207,7 @@ section{
 .cart table td:nth-child(5) input{
     width: 70px;
     padding: 10px 5px 10px 15px;
-    color: #518581;
+    color: #FFB23F;
 }
 
 .cart table thead{
@@ -253,12 +253,12 @@ section{
     outline: none;
     width: 60%;
     margin-right: 0.5rem;
-    border: 1px solid #518581;
+    border: 1px solid #FFB23F;
     font-size: 1rem;
 }
 
 .coupon-btn{
-    background-color: #518581;
+    background-color: #da8b14;
     border: none;
     padding: 1rem 1.5rem;
     color: #ffffff;
@@ -276,7 +276,7 @@ section{
 .subtotal{
     width: 50%;
     margin-bottom: 3rem ;
-    border: 1px solid #518581;
+    border: 1px solid #FFB23F;
     padding: 2rem;
 }
 
@@ -355,7 +355,7 @@ footer {
   }
   
   .footer-links ul li:hover {
-    color: #518581;
+    color: #FFB23F;
   }
 
   .Developer {
@@ -383,7 +383,7 @@ footer {
     position: absolute; 
     top: 90px;
     left: 80px;
-    background: #518581;
+    background: #da8b14;
     height: 70vh;
     width: 330px;
     font-weight: 600;

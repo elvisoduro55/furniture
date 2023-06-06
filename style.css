@@ -83,7 +83,7 @@ nav ul li .link {
 }
 
 .nav li a:hover {
-    color: #518581;
+    color: #FFB23F;
     transition: ease-in 0.5s;
 }
 
@@ -93,7 +93,7 @@ nav ul li .link {
     bottom: -6px;
     height: 3px;
     width: 0;
-    background: #518581;
+    background: #FFB23F;
     position: absolute;
     left: 0;
     transition: 0.7s;
@@ -200,7 +200,7 @@ input[type = search] {
 
 .search-btn {
     padding: 0.7rem 1.5rem;
-    background-color: #518581;
+    background-color: #da8b14;
     border: none;
     color: #ffffff;
     font-weight: 500;
@@ -225,7 +225,7 @@ input[type = search] {
 }
 
 .material-symbols-outlined{
-    color: #518581;
+    color: #da8b14;
     display: block;
     margin: 0 0.5rem;
 }
@@ -749,7 +749,7 @@ footer {
   }
   
   .footer-links ul li:hover {
-    color: #518581;
+    color: #FFB23F;
   }
 
   .Developer {
@@ -791,7 +791,7 @@ footer {
     position: absolute; 
     top: 90px;
     left: 80px;
-    background: #518581;
+    background: #da8b14;
     height: 70vh;
     z-index: 999;
     width: 330px;
